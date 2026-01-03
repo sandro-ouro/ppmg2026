@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 10PX;
+}
+.descriçao{
+    display: flex;
+  align-items: center;
+    gap: 10px;
+     padding: 10px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+
+}
+.titulo{
+    display: flex;
+    justify-content: space-around;
+}
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acesso{
+    background-color: rgb(216, 228, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.acess{
+    font-size: 30px;
+}
+.chamada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.chama{
+    font-size: 24px;
+    
+}
+p{
+    font-size: 20px;
+}
+.bonus{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+}
+.cha{
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+.AL{
+  display: inline-block;      /* faz o <a> se comportar como botão */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;      /* tira o sublinhado */
+  border-radius: 5px;
+  font-weight: bold;  
+  margin: 10px;
+    
+}
+
+/*manipulcao imagem*/
+.check{
+    width: 100px;
+}
+.brasao{
+    width: 150px;
+}
+img{
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+@media screen and (min-width: 300px) and (max-width: 700px){
+    .galeria{
+        gap: 15px;
+    }
+    .descriçao{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    p{
+        font-size: 20px
+    }
+} 

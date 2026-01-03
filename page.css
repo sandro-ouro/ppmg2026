@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background-color: rgb(213, 224, 197);*/
+}
+.container{
+width: 900px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 10px;
+
+}
+.edital{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border: 2px solid #000;
+border-radius: 10px;
+background-color: white;
+}
+.titulo{
+font-size: 30px;
+}
+/*.legned{
+
+}*/
+.btnedital{
+width: 400px;
+height: 25px;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.lo{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.logi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.penal{
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    width: 100px;
+}
+.brasao{
+    width: 100px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.locker{
+    width: 50px;
+}
+.AL{
+  display: inline-block;      /* faz o <a> se comportar como botão */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;      /* tira o sublinhado */
+  border-radius: 5px;
+  font-weight: bold;  
+  margin: 10px;
+    
+}
